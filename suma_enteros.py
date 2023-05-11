@@ -16,7 +16,7 @@ def borrar():
 
 # salir 
 def salir():
-    messagebox.showinfo("suma Enteros 1.0","la app se va serrar")
+    messagebox.showinfo("mini calcuadora 1.0","la app se va serrar")
     ventana_principal.destroy()
 #-----------------------------
 # ventana principal de la app
@@ -24,7 +24,7 @@ def salir():
 
 ventana_principal= Tk()
 
-ventana_principal.title("suma de enteros")
+ventana_principal.title("mini calculadora 1.0")
 
 ventana_principal.geometry("500x500")
 
